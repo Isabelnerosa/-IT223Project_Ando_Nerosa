@@ -14,219 +14,110 @@
 
         <input type="checkbox" name="" id="toggler">
         <label for="toggler" class="fas fa-bars"></label>
-        <a href="#" class="logo">Flower<span>Shop</span></a>
+        <a href="index.html" href="product.html" href="about.html" href="contact.html" class="logo">Flower<span>Shop</span></a>
 
         <nav class="navbar">
             <a href="./index.html" <i class="fa-solid fa-house">home</i></a>
             <a href="./about.html">about</a>
             <a href="./product.html">products</a>
-            <a href="#review">review</a>
+            <a href="./reviews.html">review</a>
             <a href="./contact.html">contact</a>
         </nav>
 
     </header>
 
-    <main class="main" id="main">
+    <div class="container">
+		<div class="innerwrap">
+		
+			<section class="section1 clearfix">
+				<div class="textcenter">
+					<span class="seperator"></span>
+					<h1>Contact Us</h1>
+				</div>
+			</section>
+		
+			<section class="section2 clearfix">
+				<div class="col2 column1 first">
+					<script src='https://maps.google.com/maps/api/js?v=3.exp'></script><div class="sec2map" style='overflow:hidden;height:550px;width:100%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.075314480255834,72.88153973865361),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.075314480255834,72.88153973865361)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>Cagayan De Oro<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+				</div>
+				<div class="col2 column2 last">
+					<div class="sec2innercont">
+						<div class="sec2addr">
+                            <p><span class="collig">Phone :</span> +63 9122619193</p>
+							<p><span class="collig">Email :</span> bel&rexsflowershop@gmail.com</p>
+						</div>
+					</div>
+					<div class="sec2contactform">
+						<h3 class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3>
+						<form action="">
+							<div class="clearfix">
+								<input class="col2 first" type="text" placeholder="FirstName">
+								<input class="col2 last" type="text" placeholder="LastName">
+							</div>
+							<div class="clearfix">
+								<input  class="col2 first" type="Email" placeholder="Email">
+								<input class="col2 last" type="text" placeholder="Contact Number">
+							</div>
+							<div class="clearfix">
+								<textarea name="textarea" id="" cols="30" rows="7">Your message here...</textarea>
+							</div>
+							<div class="clearfix"><input type="submit" value="Send"></div>
+						</form>
+					</div>
 
-        <div class="content">
-            <h3>𝑩𝒆𝒍 & 𝑹𝒆𝒙'𝒔 Flower Shop</h3>
-        </div>
-    </main>
+				</div>
+			</section>
+		
+		</div>
+	</div>
+
+
     
-    <section id="contact">  
-
-        <h1 class="section-header">Contact Us</h1>
-
-        <div class="contact-wrapper">
-
-          <form id="contact-form" class="form-horizontal" role="form">
-             
-            <div class="form-group">
-              <div class="column">
-                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
-              </div>
-            </div>
-      
-            <div class="form-group">
-              <div class="colum">
-                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
-              </div>
-            </div>
-      
-            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-            
-            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-              <div class="alt-send-button">
-                <i class="fa-solid fa-paper-plane-top"></i><span class="send-text">SEND</span>
-              </div>
-            
-            </button>
-          </form>
-      </div>        
-    </section>  
-    <section>
-        <div class="direct-contact-container">
-      
-            <ul class="contact-list">
-               <li class="list-item"><i class="fa-solid fa-location-dot"><span class="contact-text place"><a href="https://www.google.com/maps" title="Locate Me">Cagayan de Oro City | Misamis Or.</a></span></i></li> 
-               <li class="list-item"><i class="fa-solid fa-phone"><span class="contact-text phone"><a href="tel:09122619193" title="Give me a call">TnT-09122619193 | Tm-09122619194</a></span></i></li>
-               <li class="list-item"><i class="fa-solid fa-envelope"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">belsflowershop2023@gmail.com</a></span></i></li>    
-            </ul>
-            <hr>
-            <ul class="social-media-list">
-                <li><a href="https://www.facebook.com/" target="_blank" class="contact-icon">
-                   <i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li><a href="https://www.tiktok.com/" target="_blank" class="contact-icon">
-                   <i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
-                </li>
-                <li><a href="https://twitter.com/" target="_blank" class="contact-icon">
-                   <i class="fa-brands fa-twitter"  aria-hidden="true"></i></a>
-                </li>
-                <li><a href="https://www.instagram.com/" target="_blank" class="contact-icon">
-                   <i class="fa-brands fa-instagram"" aria-hidden="true"></i></a>
-                </li> 
-                <li><a href="https://github.com/" target="_blank" class="contact-icon">
-                    <i class="fa-brands fa-github"" aria-hidden="true"></i></a>
-                </li>        
-            </ul>     
-         </div> 
-    </section>
-        
-    <section class="review" id="review">
-
-        <h1 class="heading">Review</h1>  
-        <div class="box-container">
-        
-            <div class="box">
-                <div class="user">
-                    <img src="image/review1.jpeg" alt="">
-                    <div class="user-info">
-                        <h3>Christian Abragan</h3>
-                        <span>chan2@gmail.com</span>
-                    </div>
-                </div>
-                <div class="comment">
-                    Gorgeous arrangement! I am very pleased and will never use another service! Wished I found 800florals sooner!"
-                </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-            </div>
-            <div class="box">
-                <div class="user">
-                    <img src="image/review2.jpeg" alt="">
-                    <div class="user-info">
-                        <h3>Kathleen Dalen</h3>
-                        <span>kathycute@gmail.com</span>
-                    </div>
-                </div>
-                <div class="comment">
-                    I am always pleased with the flowers I have delivered. I have no idea how you manage to pick the best florists wherever I send flowers and the flowers themselves are always so very fresh..</div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half"></i>
-                </div>
-            </div>
-            <div class="box">
-                <div class="user">
-                    <img src="image/review3.jpeg" alt="">
-                    <div class="user-info">
-                        <h3>Rachielle Yamba</h3>
-                        <span>Rach@gmail.com</span>
-                    </div>
-                </div>
-                <div class="comment">
-                    I appreciate, again, your excellent service and your excellent product. Almost invariably I get thanks and good comments about the flowers</div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-            </div>
-            <div class="box">
-                <div class="user">
-                    <img src="image/review4.jpeg" alt="">
-                    <div class="user-info">
-                        <h3>Earl Justalero</h3>
-                        <span>Shong2@gmail.com</span>
-                    </div>
-                </div>
-                <div class="comment">
-                    I want to thank you for such a lovely arrangement. It was really stunning and I will always order form you!!!</div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half"></i>
-                </div>
-            </div>                     
-        </div>          
-    </section>
-
-    <main class="footer">
+    
+    <section class="footer" id="footer">
 
         <div class="box-container">
+    
             <div class="box">
-                <h2>EXTRAS</h2>
-                <a href="./product.html">Special</a>
-                <a href="./product.html">Anniversary</a>
-                <a href="./product.html">Birthday</a>
-                <a href="./product.html">Wedding</a>
-                <a href="./product.html">Send Anniversary Flowers</a>
-                <a href="./product.html">Send Birthday Flowers</a>
-                <a href="./product.html">Send Best Seller Flowers</a>
-                <a href="./product.html">Send Hand Bouquets Flowers</a>
-                <a href="./product.html">Send Low Cost Bunches</a>
+                <h3>Our Branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> India </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Japan </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> France </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Russia </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
             </div>
-
+    
             <div class="box">
-                <h2>LINKS</h2>
-                <a href="./index.html">Home</a>
-                <a href="./about.html">About</a>
-                <a href="./products.html">Products</a>
-                <a href="#">Review</a>
-                <a href="./contact.html">Contact</a>
+                <h3>Quick Links</h3>
+                <a href="index.html"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="about.html"> <i class="fas fa-arrow-right"></i> about us </a>
+                <a href="product.html"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="reviews.html"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact </a>
             </div>
-
+    
             <div class="box">
-                <h2>INFORMATION</h2>
-                <a href="#">Account</a>
-                <a href="./product.html">Order</a>
-                <a href="#">Favorite</a>
-                <a href="#">Order Tracking</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Refund Policy</a>
-                <a href="#">Payment Instructions</a>
-                <a href="#">Terms & Conditions</a>
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +90 122619193 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +91 7069607176 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> bel&rex@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Cagayan, Philippines - 9000 </a>
             </div>
-
+    
             <div class="box">
-                <h2>FLOWER STORE</h2>
-                <a href="https://www.google.com/maps/place/Lapasan">Lapasan</a>
-                <a href="https://www.google.com/maps/place/Gusa">Gusa</a>
-                <a href="https://www.google.com/maps/place/Iponan">Iponan</a>
-                <a href="https://www.google.com/maps/place/Cugman">Cugman</a>
-                <a href="https://www.google.com/maps/place/Camaman-an">Camaman-an</a>
-                <a href="https://www.google.com/maps/place/Bulua">Bulua</a>
+                <h3>contact info</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
             </div>
+    
         </div>
-
-        <div class="credit"><span>𝑩𝒆𝒍 & 𝑹𝒆𝒙'𝒔 FlowerShop</span> |@ 2023 All rights reserved </div>
-
-    </main>
-
-    <script src="contact.js"></script>
+        <div class="footer1">
+            <h2>𝑩𝒆𝒍 & 𝑹𝒆𝒙'𝒔 FlowerShop | @ 2023 All rights reserved</h2>
+        </div>
+   </section>
 
 </body>
 </html>

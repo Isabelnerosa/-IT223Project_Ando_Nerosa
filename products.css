@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .5s linear;
+    animation-duration: 4s;
+}
+
+html{
+    font-size: 52.4%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 13rem;
+    overflow-x: hidden;
+    
+}
+
+main{
+    padding:1rem 8%;
+}
+
+.heading{
+    text-align: center;
+    font-size: 5rem;
+    color:#0a0909;
+    padding:1rem;
+    margin:4rem 0;
+    
+}
+
+.heading span{
+    color:rgb(62, 57, 57);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#594545;
+    color:#f9f0f0;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:#F7F5EB;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo{
+    font-size: 4.5rem;
+    color:#0e0c0d;
+    font-weight: bolder;
+    font-family: 'Great Vibes', cursive;
+}
+
+header .logo span{
+    color:#815B5B;
+    font-family: 'Great Vibes', cursive;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#594545;
+}
+
+header .navbar a:hover{
+    color:black;
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:#3a0202b4;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(8, 5, 5, 0.3);
+    display: none;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    min-height: 40rem;
+    background: url(image/products.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main .content{
+    max-width: 50rem;
+    align-items: center;   
+}
+.main .content h3{
+    font-size: 6rem;
+    color:#131312;
+    font-family: 'Abril Fatface', cursive;   
+}
+
+.product .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2.5rem;
+    color: black;
+}
+
+.product .box-container .box{
+    flex:1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgb(0, 0, 0);
+    border-radius: .6rem;
+    border:.1rem solid rgba(221, 207, 207, 0.1);
+    position: relative;   
+    background:#ffffff;
+}
+.product .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 1rem;
+    overflow:hidden;
+}
+
+.product .box-container .box .image img{
+    height: 25rem;
+    width: 20rem;
+}
+
+.product .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+
+.product .box-container .box .content{
+    padding:3rem;
+    text-align: center;
+}
+
+.product .box-container .box .content h3{
+    font-size: 2.0rem;
+    color:#474446;
+}
+.product .box-container .box .image {
+    box-shadow: 0 4px 8px 0 rgba(167, 167, 167, 0.7);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8rem;
+    gap:.7rem;
+}
+
+.review .box-container .box{
+    flex:1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(143, 71, 71, 0.1);
+    border-radius: .5rem;
+    padding:3rem 2rem;
+    position: relative;
+    border:.1rem solid rgba(55, 53, 53, 0.1);
+    background:#ffffff;
+}
+
+.review .box-container .box .stars i{
+    color:rgb(138, 33, 44);
+    font-size: 2rem;
+}
+
+.review .box-container .box .comment{
+    color:#6d6969;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+
+.review .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    margin-bottom: 0;
+}
+
+.review .box-container .box .user img{
+    height:6rem;
+    width:6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.review .box-container .box .user h3{
+    font-size: 2rem;
+    color:#0e0d0d;
+}
+
+.review .box-container .box .user span{
+    font-size: 1.5rem;
+    color:#7d7d7d;
+}
+
+.icons-container1{
+    background:#eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+.icons-container1 .icons1{
+    background:#c8c6c6;
+    border:.1rem solid rgba(38, 38, 38, 0.1);
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    flex:1 1 25rem;
+}
+  
+.icons-container1 .icons1 img{
+    height:5rem;
+    margin-right: 2rem;
+}
+  
+.icons-container1 .icons1 h3{
+    color:#333;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+}
+.footer{
+    background-color:#ffffff;
+    padding-bottom: 8rem;
+    margin-top: 18rem;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    padding:1rem 0;
+
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    padding:1rem 0;
+    color:var(--light-color);
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .credit{
+    text-align: center;
+    padding:1.5rem;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+
+}
+
+.footer .footer1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 1rem;
+}
+
+
+
+@media (max-width:991px){
+    
+    html{
+        font-size: 45%;
+    }
+
+    header{
+        padding:1rem;
+    }
+
+    main{
+        padding:1rem;
+    }
+
+    .main{
+        background-position: left;
+    }
+     
+
+}
+
+@media (max-width:768px){
+
+    header .fa-bars{
+        display: block;
+    }
+
+    header .navbar{
+        position:absolute;
+        top:90%; left:0; right:0;
+        background:#eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        background:#fff;
+        border:.1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+
+    .main .content h3{
+        font-size: 5rem;
+    }
+
+    .main .content span{
+        font-size: 2.5rem;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    
+    .column {
+        width: 100%;
+    }
+    .footer .credit {
+        text-align: center;
+    }
+    
+    
+}
+
+@media (max-width:450px){
+    
+    html{
+        font-size: 50%;
+    }
+
+    .heading{
+        font-size: 3rem;
+    }
+
+}

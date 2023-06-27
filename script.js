@@ -28,11 +28,6 @@ themeToggler.onclick = () =>{
     }else{
         document.querySelector('body').classList.remove('active');
     }
-}
+}   
 
-function myFunction(imgs) {
-    var imgText = document.getElementById("imgtext");
-    expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.alt;
-}
 
